@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my restaurant</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <ul class="nav navbar-nav">
+                <li class="col-sm-3"> <a href="./">Home</a> </li>
+                <li class="col-sm-3"> <a href="./service">Our Services</a> </li>
+                <li class="col-sm-3"> <a href="./contact">Contact Us</a> </li>
+            </ul>
+            <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </nav>
+        <h1 class="jumbotron">CONTACT US TODAY</h1>
+        <form action="/action_page.php">
+            <h4>YOUR INFORMATIONS</h4>
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Phone Number:</label>
+                <input type="text" class="form-control" id="phone number" placeholder="Enter phone number" required>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="remember"> Remember me</label>
+            </div>
+            <div>
+                <label>Comments </label> <br>
+                <input type="text" class="form-control comments" placeholder="your message"/> 
+            </div>
+            <button type="submit" class="btn btn-default">Send</button>
+        </form>
+        <script src="../index.js"></script>
+    </body>
+</html>
